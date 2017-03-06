@@ -22,9 +22,9 @@ Ideal for development cluster on a laptop with at least 4GB of memory.
 2. [Download and install Vagrant](http://www.vagrantup.com/downloads.html).
 3. Run ```vagrant box add centos65 http://files.brianbirkinbine.com/vagrant-centos-65-i386-minimal.box```
 4. Git clone this project, and change directory (cd) into this project (directory).
-5. [Download Hadoop 2.6 into the /resources directory](http://apache.crihan.fr/dist/hadoop/common/stable/hadoop-2.6.0.tar.gz)
-6. [Download Spark 1.1.1 into the /resources directory](http://d3kbcqa49mib13.cloudfront.net/spark-1.1.1-bin-hadoop2.4.tgz)
-7. [Download Java 1.8 into the /resources directory](http://download.oracle.com/otn-pub/java/jdk/8u25-b17/jdk-8u25-linux-i586.tar.gz)
+5. [Download Hadoop 2.6 into the /resources directory](http://mrsiva26.tech/spark/hadoop-2.6.0.tar.gz)
+6. [Download Spark 1.1.1 into the /resources directory](http://mrsiva26.tech/spark/spark-1.1.1-bin-hadoop2.4.tgz)
+7. [Download Java 1.8 into the /resources directory](http://mrsiva26.tech/spark/jdk-8u25-linux-i586.tar.gz)
 8. Run ```vagrant up``` to create the VM.
 9. Run ```vagrant ssh``` to get into your VM.
 10. Run ```vagrant destroy``` when you want to destroy and get rid of the VM.
